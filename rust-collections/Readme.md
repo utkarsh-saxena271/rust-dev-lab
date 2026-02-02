@@ -19,4 +19,17 @@ fn main() {
 ```
 
 ### Hashmaps
-  
+Hashmaps stores values in key value pairs, just like objects in js, dictionaries in python.
+Methods - insert, get, remove, clear
+
+```rust
+use std::collections::HashMap;
+
+fn main() {
+    // hashmaps
+    let mut hash_map = HashMap :: new();
+    hash_map.insert(String::from("utkarsh"), 20);
+    println!("{:?}",hash_map);
+
+}
+```
