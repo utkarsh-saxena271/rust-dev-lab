@@ -1,10 +1,6 @@
 fn main(){
-    let str = String::from("Utkarsh");
-    let l = get_length(&str);
-    println!("{}",l);
+    let mut str = String::from("Utkarsh");
+    let k = &mut str;
+    println!("{}",k);
     println!("{}",str);
-}
-
-fn get_length(str:&String) -> usize {
-    return str.len();
 }
